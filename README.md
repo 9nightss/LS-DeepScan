@@ -1,8 +1,8 @@
 # LS-DeepScan
 🔍 Project LS – Deep Scan Port
 
-A powerful local file scanner with a sleek customtkinter GUI, designed to recursively search through your drives for specific strings within common file formats. Ideal for forensic review, lost file tracing, debugging, or deep system audits.
-🚀 Features
+A powerful local file scanner for multi disk users / servers with a sleek customtkinter GUI, designed to recursively search through your drives for specific strings within common file formats. Ideal for forensic review, lost file tracing, debugging, or deep system audits.
+ Features
 
     Admin Privilege Check: Automatically requests elevation for deeper access.
 
@@ -32,18 +32,12 @@ A powerful local file scanner with a sleek customtkinter GUI, designed to recurs
 
 📦 Installation
 
-    Clone the repo:
-
-git clone https://github.com/yourusername/project-ls-deepscan.git
-cd project-ls-deepscan
-
-Install required packages:
-
+ 
 pip install customtkinter
 
 Run the app (with Admin privileges):
 
-    python deep_scan.py
+    python LS-DeepScan.py
 
 🖥️ Supported File Types
 
@@ -77,15 +71,13 @@ Error codes:
 
 ⚠️ Notes
 
-    Due to OS limitations, the progress bar may cap at ~98-99% due to excluded system folders.
-
+    Due to OS limitations, the progress bar may cap at ~98-99% on Windows due to excluded system folders even if the process is completed. Just check the indicator if       it changed its color..
+    
     Currently optimized for Windows. Linux/macOS support is possible with small tweaks (encoding handling + file opener).
 
-    Future features (like content previews) are already scaffolded in the code.
 
 👀 Screenshot
 
-    You can drop in a screenshot here later showing the GUI in action.
 
 📃 License
 
