@@ -32,7 +32,7 @@ class ScanThread(threading.Thread):
         self.app = app
         self.excluded = ['C:\\Windows'] # because we dont need to scan it on most of the cases 
         
-        # i used most of the text/media based files but feel -- to change
+        # i used most of the text/media based files but feel free to change or add new extentions
         self.target_extensions = [
             ".txt", ".docx", ".xlsx", ".csv", ".log", ".md",
             ".xml", ".html", ".htm", ".mp3", ".mp4", ".wav", ".jpg", ".png", ".json",
